@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/Ava_Dental_Receptionist_Demo_Page/",
+      "permanent": false
+    }
+  ]
+}
