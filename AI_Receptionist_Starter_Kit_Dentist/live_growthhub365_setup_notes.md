@@ -132,3 +132,36 @@ Last updated:
 5. Replace the current booking action calendar with the dentist-specific calendar or multi-calendar setup.
 6. Attach a phone number only when ready for inbound calls or client demo forwarding.
 
+## 2026-05-13 Calendar Update
+
+Created active dentist demo calendars in GrowthHub365:
+
+- NEW PATIENT EXAM AND CLEANING
+- TEETH WHITENING CONSULTATION
+- INVISALIGN CONSULTATION
+- EMERGENCY DENTAL CONSULTINVISALIGN CONSULTATION
+
+The emergency calendar name should be cleaned up later to:
+
+> EMERGENCY DENTAL CONSULT
+
+The merged name happened during browser keyboard entry, but it is active and was connected as the urgent dental routing calendar.
+
+Updated Ava's Appointment Booking action:
+
+- Connected the new dentist calendars to the booking action.
+- The action now displays: `AI Receptionist Calender +4 more`.
+- Added intent routing rules for:
+  - fallback/general appointment
+  - new patient cleaning/exam
+  - teeth whitening
+  - Invisalign/clear aligners
+  - urgent tooth pain/broken tooth/swelling
+
+Recommended next test:
+
+> I am a new patient and want to schedule a cleaning.
+
+Then test:
+
+> I have tooth pain and my cheek is swollen.
