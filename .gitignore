@@ -1,0 +1,13 @@
+# Private local research/context
+ChatGPT_Export_Work/
+LLM_Wiki/
+NotebookLM_AI_Roadmap/
+
+# Local career/work artifacts
+resume_tiktok_work/
+job_application_profile.md
+job_search_shortlist_2026-05-17.md
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
